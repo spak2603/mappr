@@ -3,4 +3,9 @@ class PlacesController < ApplicationController
 		@place = Place.last
 		# this is going to be one of the rows on the database - the latest one
 	end
+
+	def new 
+		
+	end
+
 end
