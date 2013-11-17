@@ -34,6 +34,16 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :test, :development do
+	# only do stuff on your computer
+end
+
+group :production do
+	# only do stuff you want on heroku
+end
+
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

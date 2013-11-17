@@ -1,5 +1,11 @@
 <h1> Enter a place </h1>
 
 <div>
-Stuff here
+
+<%= simple_form_for @place do |f| %>
+	<%= f.input :title %>
+	<%= f.input :address %>
+	<%= submit_tag 'Create' %>
+<% end%>
+
 </div>
