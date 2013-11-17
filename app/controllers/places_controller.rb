@@ -1,6 +1,7 @@
 class PlacesController < ApplicationController
 	def index
 		@place = Place.last
+		# @places = Place.all
 		# this is going to be one of the rows on the database - the latest one
 	end
 
